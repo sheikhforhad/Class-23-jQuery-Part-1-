@@ -1,0 +1,42 @@
+/* Common Css Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  /* box-sizing: border-box; */
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Common Css End  */
+
+#output {
+  width: 500px;
+  height: 500px;
+  padding: 100px;
+  margin: 100px;
+  background: orange;
+  border: 10px solid #000;
+  margin-top: 50px;
+}
+button {
+  border: none;
+  background-color: #ddd;
+  color: #000;
+  padding: 10px 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
